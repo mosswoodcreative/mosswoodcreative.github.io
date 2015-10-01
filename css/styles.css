@@ -30,7 +30,7 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   text-align: center;
   clear: both;
   width: 100%;
@@ -39,7 +39,29 @@ body {
 .footer a {
   margin: auto;
   color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.client-list {
+  color: white;
+  font-size: 12px;
+}
+
+.client-list h2 {
   text-transform: uppercase;
   font-size: 12px;
-  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.client-list ul {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.client-list li {
+  padding: 0;
+  margin: 0 10px 10px;
+  list-style: none;
+  display: inline-block;
 }
